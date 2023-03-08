@@ -1,6 +1,46 @@
-h1{
-    
-    font-size: 3.75rem;
-    font-weight: 700;
-    color: #FFF;
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+/* asterisco significa aplicar o css a tudo, como no exemplo margin e padding*/
+*{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+:root{
+    font-size: 62.5%; /*10px / 16px * font size dividido pelo tamanho padrão do navegador*/
+}
+h1 {
+    font-family: 'Poppins';
+    font-size: 3.75rem;
+    font-weight: 900;
+    color: #FFF;
+    
+}
+span {
+color:#FFF;
+font-family: 'Montserrat';
+font-size: 4.5rem;
+}
+
+
+header{
+    height:100vh;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    color:#FFF;
+    /*shorthand: ao inves de escrever propriedades separadas, posso aglutina-las em uma propriedade apenas*/
+    padding: 21rem 11rem; /*o primeiro valor é 21 embaixo e encima, o segundo é na esquerda e na direita*/
+
+}
+/*para indicar no css uma classe, usamos o prefixo . (significa que esse bloco de css é da classe botão)*/
+
+.botão{
+padding: 14px 111px;
+background: linear-gradient(90deg, );
+border-radius: 10px;
+font-family: 'Montserrat';
+font-size: 3rem;
+color:#FFF;
+text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
