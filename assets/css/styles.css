@@ -84,3 +84,36 @@ text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 
 
 }
+
+#orcamento{
+    height: 100vh;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ #orcamento form{
+    border-radius: 10px;
+    grid-template-columns: 1rf, 1rf;
+    justify-items:start;
+ background-color: beige;
+ display:grid;
+ padding:2rem;
+ position:relative;
+ row-gap: 2rem;
+ }
+ 
+ #orcamento h3{
+    position: absolute;
+    top: -10%;
+    background-color: brown;
+    color: aquamarine;
+ }
+ 
+ 
+ input[type=number]{
+    padding: .5rem;
+    background-color: darkorange;
+ }
